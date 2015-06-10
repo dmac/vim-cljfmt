@@ -1,0 +1,12 @@
+*vim-cljfmt.txt* Clojure formatting plugin
+*vim-cljfmt*
+
+Vim-cljfmt allows you to format Clojure code with cljfmt
+(https://github.com/cespare/goclj).
+
+================================================================================
+COMMANDS
+                                                                       *:CljFmt*
+:CljFmt
+
+    Run the current buffer through cljfmt.
