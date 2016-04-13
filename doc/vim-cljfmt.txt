@@ -10,3 +10,14 @@ COMMANDS
 :CljFmt
 
     Run the current buffer through cljfmt.
+
+================================================================================
+SETTINGS
+
+                                                            *'g:cljfmt_on_save'*
+
+Use this option to control whether |:CljFmt| is called automatically on save. By
+default it is enabled. >
+
+  let g:cljfmt_on_save = 1
+<
