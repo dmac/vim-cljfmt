@@ -16,3 +16,9 @@ Install vim-cljfmt with your method of choice.
     :CljFmt
 
         Run the current buffer through cljfmt.
+
+## Settings
+
+- `g:cljfmt_on_save` controls whether cljfmt automatically calls `:CljFmt` when
+  saving a .clj buffer. This is set to 1 by default.
+
