@@ -16,8 +16,8 @@ SETTINGS
 
                                                             *'g:cljfmt_on_save'*
 
-Use this option to control whether |:CljFmt| is called automatically on save. By
-default it is enabled. >
+Use this option to control whether |:CljFmt| is called automatically on save
+when editing clj and cljs files. By default it is enabled. >
 
   let g:cljfmt_on_save = 1
 <
