@@ -20,5 +20,5 @@ Install vim-cljfmt with your method of choice.
 ## Settings
 
 - `g:cljfmt_on_save` controls whether cljfmt automatically calls `:CljFmt` when
-  saving a .clj or .cljs buffer. This is set to 1 by default.
+  saving a .clj, .cljs, .cljc, or .edn buffer. This is set to 1 by default.
 
